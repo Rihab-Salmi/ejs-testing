@@ -2,7 +2,7 @@ import ejs from "ejs";
 import express from "express";
 
 const app = express();
-const port = 3001;
+const port = 3011;
 
 let day = "";
 let whatDay= "";
@@ -10,10 +10,10 @@ let adv = "";
 day = new Date().getDay();
 if(day == 0 || day == 6){
     whatDay = "weekend";
-    adv = "enjoy your days sweetie!";
+    adv = "enjoy your day sweetie you deserve the rest 🤍";
 }else{
     whatDay = "weekday";
-    adv = "work hard sweetie!";
+    adv = "work hard sweetie 🤍";
 }
 
 
